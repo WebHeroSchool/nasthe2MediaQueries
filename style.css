@@ -1,0 +1,39 @@
+.text {
+  font-family: 'Lora', serif;
+}
+
+@media (min-width:320px) { 
+  .text {
+    font-size: 8px;
+  }
+}
+
+@media (min-width:481px) { 
+  .text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width:641px) { 
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:961px) {
+  .text {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:1025px) {
+  .text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width:1281px) {
+  .text {
+    font-size: 28px;
+  }
+}
