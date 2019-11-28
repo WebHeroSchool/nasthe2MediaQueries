@@ -1,0 +1,125 @@
+/* General menu */
+
+.menu {
+  text-align: left;
+  margin-bottom: 12px;
+  padding-top: 12px;
+}
+
+.menu__links-item {
+  display: inline-block;
+  color: #8004BF;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 30px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu__links-item:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger icon */
+
+.menu__icon {
+  display: none;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__icon span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #8004BF;
+  border-radius: 2px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.menu__icon span:nth-child(1) {
+  top: 0px;
+}
+
+.menu__icon span:nth-child(2) {
+  top: 7px;
+}
+
+.menu__icon span:nth-child(3) {
+  top: 14px;
+}
+
+
+@media (min-width: 320px) and (max-width: 481px) { 
+  .menu__icon {
+    display: inline-block;
+  }
+
+  .menu_links,
+  .menu__links-item {
+    display: none;
+  }
+
+  .text {
+    position: absolute;
+    top: 24px;
+    padding-left: 28px;
+  }
+}
+
+
+/* Text media queries */
+
+.text {
+  font-family: 'Lora', serif;
+}
+
+@media (min-width: 320px) { 
+  .text {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 481px) { 
+  .text {
+    font-size: 12px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 641px) { 
+  .text {
+    font-size: 16px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 961px) {
+  .text {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .text {
+    font-size: 24px;
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 1281px) {
+  .text {
+    font-size: 28px;
+    padding-left: 15px;
+  }
+}
+
